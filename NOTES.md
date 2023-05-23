@@ -128,13 +128,13 @@
 # 六、SSH加密
 
   **此处的邮箱号可以改(可设置为GitHub所用邮箱)**
-  > ssh-keygen -t rsa -C 2763914461@qq.com 即可生产.ssh文件和密钥
+  - ssh-keygen -t rsa -C 2763914461@qq.com 即可生产.ssh文件和密钥
   ![ssh命令](./images/git-ssh.png)
 
   **生成文件**
-  > .ssh文件夹内部两个文件(密钥)
+  - .ssh文件夹内部两个文件(密钥)
   ![ssh文件](./images/ssh-id.png)
 
   **密钥文件**
-  > 字串末尾为指定的邮箱
+  - 字串末尾为指定的邮箱
   ![rsa](./images/ssh-id-rsa-pub.png)
